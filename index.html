@@ -1,48 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- CSS fontawesome -->
-    <script src="https://kit.fontawesome.com/71f1bf0ffb.js" crossorigin="anonymous"></script>
+    <!-- Parllax JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js/parallax.js"></script>
 
     <title>Treasure</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Awal navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <img src="https://cdn.discordapp.com/attachments/757551062038085694/949574518052098058/grab-logo.png" alt="" width="70" height="24" class="me-2" />
-          <form class="d-flex ms-auto">
-            <input class="form-control me-2" type="search" placeholder="Cari tempat tujuan anda" aria-label="Search" />
-            <button class="btn btn-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-          </form>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Daftar</a>
-            </li>
-          </ul>
+    <!-- Header -->
+    <header>
+      <nav>
+        <h1 class="logo">
+          <a href="/">Treasure</a>
+        </h1>
+        <a href="" class="btn-sign-up">Sign Up</a>
+      </nav>
+      <div class="header-title">Bandung.</div>
+      <div class="header-bottom">
+        <!-- <ul class="social-media">
+          <li><a href="">Github</a></li>
+        </ul> -->
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <div class="about-container">
+        <div class="image-gallery">
+          <div class="image-box">
+            <img src="picture/1.jpg" alt="image" />
+            <h2 class="bandung">BA</h2>
+          </div>
+          <div class="image-box">
+            <img src="picture/2.jpg" alt="image" />
+            <h2 class="bandung">ND</h2>
+          </div>
+          <div class="image-box">
+            <img src="picture/3.jpg" alt="image" />
+            <h2 class="bandung">OE</h2>
+          </div>
+          <div class="image-box">
+            <img src="picture/4.jpg" alt="image" />
+            <h2 class="bandung">NG</h2>
+          </div>
+        </div>
+        <div class="about-info">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, expedita? Ex id ut est veniam obcaecati doloribus nemo similique sed provident placeat alias quis voluptatibus, tenetur assumenda nam! Perspiciatis, perferendis.
         </div>
       </div>
-    </nav>
-    <div class="alert alert-warning" role="alert">This web is Under Constructions <a href="#" class="alert-link">click this link</a> for dev logs</div>
-    <!--Akhir Navbar-->
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <!-- Footer  -->
+    <footer>&copy; Kelompok 08</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
