@@ -139,3 +139,51 @@ footer {
     padding: 1.5rem 1rem;
     text-align: center;
 }
+
+.form-signin {
+    padding: 6rem 6rem;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-register {
+    padding: 6rem 6rem;
+}
+
+.form-register .checkbox {
+    font-weight: 400;
+}
+
+.form-register .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-register input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-register input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

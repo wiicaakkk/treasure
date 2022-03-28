@@ -8,7 +8,7 @@
         <h1 class="logo">
           <a href="/">Treasure</a>
         </h1>
-        <a href="" class="btn-sign-up">Sign in</a>
+        <a href="/login" class="btn-sign-up"><i class="bi bi-box-arrow-in-right"></i> Sign in</a>
       </nav>
       <div class="header-title">Bandung.</div>
       <div class="header-bottom"></div>
@@ -36,11 +36,11 @@
           </div>
         </div>
         <div class="about-info">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, expedita? Ex id ut est veniam obcaecati doloribus nemo similique sed provident placeat alias quis voluptatibus, tenetur assumenda nam! Perspiciatis, perferendis.
+        User pengguna aplikasi ‘Treasure’ ini ditujukan untuk wisatawan yang ingin mencari informasi tempat wisata suatu daerah yang berada di Kota Bandung.
         </div>
       </div>
     </section>
 
     <!-- Footer  -->
-    <footer>&copy; Kelompok 08</footer>
+    <footer>Dibuat dengan <i class="bi bi-box2-heart-fill"></i> Kelompok 08</footer>
 @endsection
