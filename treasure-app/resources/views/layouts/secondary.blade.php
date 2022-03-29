@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!-- Css -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
 
     <title>Treasure</title>
 
@@ -25,7 +25,7 @@
       @yield('primary')
   </div>
 
-    <script src="https://kit.fontawesome.com/71f1bf0ffb.js" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

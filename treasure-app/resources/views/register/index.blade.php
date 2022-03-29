@@ -1,35 +1,43 @@
-@extends('layouts.main')
+@extends('layouts.secondary')
 
 
 @section('primary')
   <div class="row justify-content-center">
-    <div class="col-md-4">
+    <div class="col-lg-4">
     <main class="form-register">
-      <form>
+      <form action="/register" method="post">
         <center><h1 class="h3 mb-3 fw-normal">Form Regristrasi</h1></center>
-        <label for="floatingInput">Username</label>
-        <div class="mb-3">
-            <div class="form-floating">
-            <input type="username" class="form-control" id="floatingInput">
+        @csrf
+            <div class="form-floating mb-3">
+              <input type="text" name="name" class="form-control @error('name') is-invalid @enderror" id="name" placeholder="Name" required value="{{ old('name') }}">
+              <label for="name">Name</label>
+              @error('name')
+                <div class="invalid-feedback">
+                {{ $message }}
+                </div>
+              @enderror
             </div>
-        </div>
-        <label for="floatingInput">Email address</label>
-        <div class="mb-3">
-            <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" >
+            <div class="form-floating mb-3">
+              <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" required value="{{ old('email') }}">
+              <label for="email">Email address</label>
+              @error('email')
+                <div class="invalid-feedback">
+                {{ $message }}
+                </div>
+              @enderror
             </div>
+        <div class="form-floating mb-3">
+          <input type="text" name="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="password" required>
+          <label for="password">Password</label>
+          @error('password')
+            <div class="invalid-feedback">
+            {{ $message }}
+            </div>
+          @enderror
         </div>
-        <label for="floatingPassword">Password</label>
-        <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword">
+        <div class="mt-3">
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Regristrasi</button>
         </div>
-
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Regristrasi</button>
       </form>
       <small class="d-block text-center mt-3">Sudah terdaftar? <a href="/login">Login sekarang!</a></small>
     </main>
