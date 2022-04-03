@@ -8,10 +8,11 @@
         <h1 class="logo">
           <a href="/">Treasure</a>
         </h1>
-        <a href="/login" class="btn-sign-up"><i class="bi bi-box-arrow-in-right"></i> Sign in</a>
+        <a href="/menu" class="btn-sign-up"><i class="fa-solid fa-jet-fighter"></i> Get started</a>
       </nav>
       <div class="header-title">Bandung.</div>
       <div class="header-bottom"></div>
+
     </header>
 
     <!-- About -->
@@ -42,7 +43,6 @@
       </div>
     </section>
 
-    <!-- Footer  -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
@@ -50,5 +50,8 @@
           <center><a class="btn btn-outline-light btn-floating m-1" href="https://github.com/wiicaakkk/treasure" role="button"><i class="fab fa-github"></i></a></center>
       </section>
     </div>
+
+    <!-- Footer  -->
     <footer>Dibuat dengan <i class="bi bi-box2-heart-fill"></i> Kelompok 08</footer>
+
 @endsection
