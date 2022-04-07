@@ -7,7 +7,6 @@
 }
 
 body {
-    background: #f7f7f7;
     font-family: "Poppins", sans-serif;
 }
 
@@ -160,7 +159,7 @@ body {
 }
 
 .form-control-dark {
-    color: #fff;
+    color: rgb(102, 98, 98);
     background-color: rgba(255, 255, 255, 0.1);
     border-color: rgba(255, 255, 255, 0.1);
 }

@@ -8,7 +8,7 @@
         <h1 class="logo">
           <a href="/">Treasure</a>
         </h1>
-        <a href="/menu" class="btn-sign-up"><i class="fa-solid fa-jet-fighter"></i> Get started</a>
+        <a href="/menu" class="btn-sign-up">Get started</a>
       </nav>
       <div class="header-title">Bandung.</div>
       <div class="header-bottom"></div>

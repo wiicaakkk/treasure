@@ -16,20 +16,22 @@
 
   </head>
   <body>
-    
-@include('menu.layouts.header')
+ 
+    <div class="">   
+        @include('dashboard.index')
+    </div> 
 
-<div class="container-fluid">
-  <div class="row">
+    <div class="container-fluid">
+        <div class="row">
 
-    @include('menu.layouts.sidebar')
+            @include('dashboard.sidebar')
 
-    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        @yield('container')
-    </main>
-    
-  </div>
-</div>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                @yield('container')
+            </main>
+            
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

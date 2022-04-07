@@ -25,6 +25,22 @@ Route::get('/menu', function () {
     return view('menu.dashboard');
 });
 
+Route::get('/place', function () {
+    return view('menu.place');
+});
+
+Route::get('/list', function () {
+    return view('menu.list');
+});
+
+Route::get('/database', function () {
+    return view('menu.database');
+});
+
+Route::get('/timeline', function () {
+    return view('menu.timeline');
+});
+
 Route::get('/peraturan', function () {
     return view('menu.peraturan');
 });
