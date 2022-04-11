@@ -134,7 +134,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="../image/gambar1.PNG" class="work-box"> <img src="../image/gambar1.PNG" alt="">
             <div class="overlay">
                 <div class="overlay-caption">
-                <p><strong>Obelix Hills</strong></p>
+                <p><strong>a</strong></p>
                 </div>
             </div>
             <!-- overlay --> 
@@ -142,7 +142,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="../image/gambar1.PNG" class="work-box"> <img src="../image/gambar1.PNG" alt="">
             <div class="overlay">
                 <div class="overlay-caption">
-                <p><strong>Illumina Glamping Jogja</strong></p>
+                <p><strong>x</strong></p>
                 </div>
             </div>
             <!-- overlay --> 
@@ -150,7 +150,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="../image/gambar1.PNG" class="work-box"> <img src="../image/gambar1.PNG" alt="">
             <div class="overlay">
                 <div class="overlay-caption">
-                <p><strong>Grojogan Watu Purbo</strong></p>
+                <p><strong>c</strong></p>
                 </div>
             </div>
             <!-- overlay --> 
@@ -158,7 +158,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="../image/gambar1.PNG" class="work-box"> <img src="../image/gambar1.PNG" alt="">
             <div class="overlay">
                 <div class="overlay-caption"> 
-                <p><strong>Teras Merapi</strong></p>
+                <p><strong>v</strong></p>
                 </div>
             </div>
             <!-- overlay --> 
@@ -166,7 +166,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="../image/gambar1.PNG" class="work-box"> <img src="../image/gambar1.PNG" alt="">
             <div class="overlay">
                 <div class="overlay-caption">
-                <p><strong>Lalang Buana - Agrowisata Bhumi Merapi</strong></p>
+                <p><strong>g</strong></p>
                 </div>
             </div>
             <!-- overlay --> 
