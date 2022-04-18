@@ -6,6 +6,7 @@ use App\Http\Controllers\PlaceMapController;
 use App\Http\Controllers\PlaceController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\DataController;
+use App\Http\Controllers\RegisterController;
 
 use App\Models\Place;
 
@@ -49,3 +50,6 @@ Route::get('/place/data', [DataController::class, 'places'])->name('place.data')
 Route::group(['middleware' => ['auth']], function () {
     Route::resource('places', 'App\Http\Controllers\PlaceController');
 });
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'store']);
