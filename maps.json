@@ -1,0 +1,66 @@
+{"storymap": {
+        "slides": [{
+            "type": "overview",
+            "text": {
+                "headline": "Rute Wisata Dalam Satu Hari",
+                "text": "<p> Mau liburan ke bandung namun badget terbatas? Anda tidak perlu khawatir, salsa wisata menyediakan paket wisata bandung murah sudah termasuk penginapan dan transportasinya. Dengan demikian perjalanan tour liburan Anda akan menjadi lebih praktis dan hemat. Selain itu, Anda juga dapat memodifikasi (custom tour) paket wisata yang telah kami tawarkan sesuai dengan keinginan.</p>"
+            },
+            "media": {
+                    "url": "https://media.discordapp.net/attachments/941202932865585194/965621858584125490/unknown.png",
+                    "caption": "Paket Wisata Bandung"
+            }
+        },{
+            "text": {
+                "headline": "Kawah putih",
+                "text": "<p>Kawah Putih adalah sebuah tempat wisata di Jawa Barat yang terletak di Desa Alam Endah, Kecamatan Rancabali, Kabupaten Bandung Jawa Barat yang terletak di kaki Gunung Patuha. Kawah putih merupakan sebuah danau yang terbentuk dari letusan Gunung Patuha. Tanah yang bercampur belerang di sekitar kawah ini berwarna putih, lalu warna air yang berada di kawah ini berwarna putih kehijauan, yang unik dari kawah ini adalah airnya kadang berubah warna.</p>"
+            },
+            "location": {
+                "lat": -7.166276466513603,
+                "lon": 107.40210746293506,
+                "zoom": 11
+            },
+            "media": {
+                "url": "https://cdn.discordapp.com/attachments/941202932865585194/965622884871569479/unknown.png"
+            }
+        },{
+            "text": {
+                "headline": "Glamping Lakeside",
+                "text": "<p>Glamping Lakeside Rancabali adalah sebuah resort yang berada di alam terbuka yang luas dengan dominasi kebun teh, dan terbuka untuk umum. Nggak harus menginap untuk bisa menikmati keindahan alam dan berbagai fasilitas yang ditawarkan di sini. Cukup membayar tiket masuk sebesar Rp 20.000 per orang dan mobil Rp 5.000. Jam bukanya pukul 07.00-19.00 setiap hari.</p>"
+            },
+            "location": {
+                "lat": -7.166470185026718,
+                "lon": 107.35661026380555,
+                "zoom": 11
+            },
+            "media": {
+                "url": "https://cdn.discordapp.com/attachments/941202932865585194/965623458358763600/unknown.png"
+            }
+        },{
+            "text": {
+                "headline": "Ranca Upas Deer Conservation",
+                "text": "<p>Ranca Upas atau Kampung Cai Ranca Upas adalah salah satu bumi perkemahan di Bandung, Jawa Barat, Indonesia. Terletak di Jalan Raya Ciwidey Patenggang KM. 11, Alam Endah, Ciwidey Kabupaten Bandung, dengan jarak sekitar 50 km dari pusat Kota Bandung</p>"
+            },
+            "location": {
+                "lat": -7.13819362324411,
+                "lon": 107.39210311316714,
+                "zoom": 11
+            },
+            "media": {
+                "url": "https://cdn.discordapp.com/attachments/941202932865585194/965623752706633809/unknown.png"
+            }
+        },{
+            "text": {
+                "headline": "Strawberry Farm",
+                "text": "<p>Fasilitas di Kebun Strawberry Ciwidey Bandung tersedia cukup lengkap untuk memanjakan para pengunjung. Kebun strawberry yang super cantik, perlengkapan untuk memetik strawberry serta pemandu wisata siap sedia untuk menemani petualangan anda. Area yang fotogenik dan menawan adalah spot foto yang sempurna bagi anda yang berniat mengabadikan momen ataupun mempublikasikannya di sosial media.</p>"
+            },
+            "location": {
+                "lat": -6.799943239099865,
+                "lon": 107.56788344017771,
+                "zoom": 11
+            },
+            "media": {
+                "url": "https://cdn.discordapp.com/attachments/941202932865585194/965623989248614461/unknown.png"
+            }
+        }]
+    }
+}

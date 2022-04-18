@@ -1,7 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.secondary')
 
-@section('content')
-<div class="row justify-content-center">
+
+@section('primary')
+  <div class="row justify-content-center">
     <div class="col-md-5">
     <main class="form-register">
       <form action="/register" method="post">
@@ -27,25 +28,25 @@
                 @enderror
               </div>
 
-              <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-                @error('Email address')
-                    <div class="invalid-feedback">
-                    {{ $message }}
-                    </div>
-                @enderror
-              </div>
+            <div class="form-floating md-5">
+              <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" placeholder="name@example.com" required value="{{ old('email') }}">
+              <label for="email">Email address</label>
+              @error('email')
+                <div class="invalid-feedback">
+                {{ $message }}
+                </div>
+              @enderror
+            </div>
 
-              <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-                @error('Password')
-                    <div class="invalid-feedback">
-                    {{ $message }}
-                    </div>
-                @enderror
-              </div>
+        <div class="form-floating md-5">
+            <input type="password" class="form-control roude-button" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          @error('password')
+            <div class="invalid-feedback">
+            {{ $message }}
+            </div>
+          @enderror
+        </div>
 
         <div class="mt-3">
           <button class="w-100 btn btn-lg btn-primary" type="submit">Regristrasi</button>
