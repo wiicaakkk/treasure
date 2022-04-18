@@ -40,6 +40,40 @@ Route::get('/rute-satu', function () {
     return view('maps.rutewisatasatu');
 });
 
+Route::get('/register', function()
+{
+    return View::make('register');
+});
+Route::post('/register', function()
+{
+    var_dump($_POST);
+    $validator = Validator::make(
+        Input::all(),
+        array(
+            "username"              => "required|username",
+            "name"                  => "required|name",
+            "email"                 => "required|email|unique:users,email",
+            "password"              => "required|min:6",
+            "password_confirmation" => "same:password",
+        )
+      if($validator->passes())
+    {
+        $user = new User;
+        $user->email    = Input::get('email');
+        $user->password = Hash::make(Input::get('password'));
+        $user->save();
+
+        return Redirect::to("register");
+    }
+    // 2b. jika tidak, kembali ke halaman form registrasi
+    else
+    {
+        return Redirect::to('register')
+            ->withErrors($validator)
+            ->withInput();
+    }
+});
+
 Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
